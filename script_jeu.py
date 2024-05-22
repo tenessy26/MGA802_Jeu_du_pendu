@@ -1,11 +1,27 @@
 import random
+import os
+from unicodedata import normalize
 
 def selectionner_mot():
-    word_file = open("mots.txt",'r', encoding='utf8')
-    word_array = word_file.readlines()
-    word = random.choice(word_array)
-    word = word[:-1]
-    print(word)
+
+    external_file = input(" Quel est le nom du fichier ? ")
+    chemin_complet = os.path.join(os.path.abspath(os.path.curdir), external_file)
+    print(chemin_complet)
+
+    print(os.path.isfile(chemin_complet))
+    if os.path.isfile(chemin_complet):
+        word_file = open("mots.txt",'r', encoding='utf8')
+        word_array = word_file.readlines()
+        word = random.choice(word_array)
+        word = word[:-1]
+        word = normalize('NFD',word).encode('ASCII','ignore').decode('utf8')
+    else:
+        word_file = open("mots.txt",'r', encoding='utf8')
+        word_array = word_file.readlines()
+        word = random.choice(word_array)
+        word = word[:-1]
+        word = normalize('NFD',word).encode('ASCII','ignore').decode('utf8')
+        print(word)
     return word
 
 def afficher_etat_mot(word):

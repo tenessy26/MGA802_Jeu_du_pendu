@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="269fada1-2e7a-46f5-89ab-c225d2ab33db" name="Changes" comment="Première version : implémentation des fonctions principales">
+    <list default="true" id="269fada1-2e7a-46f5-89ab-c225d2ab33db" name="Changes" comment="Deuxième version : Ajout des fonctionalités d'indication si l'utilisateur à gagné ou perdu + Choix de relancer une partie">
+      <change afterPath="$PROJECT_DIR$/mots_pendu.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script_jeu.py" beforeDir="false" afterPath="$PROJECT_DIR$/script_jeu.py" afterDir="false" />
     </list>
@@ -51,6 +52,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.rendu module 2.executor&quot;: &quot;Run&quot;,
     &quot;Python.script_jeu.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;
@@ -88,11 +90,20 @@
       <option name="project" value="LOCAL" />
       <updated>1715987193441</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Deuxième version : Ajout des fonctionalités d'indication si l'utilisateur à gagné ou perdu + Choix de relancer une partie">
+      <option name="closed" value="true" />
+      <created>1716070610822</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716070610822</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Première version : implémentation des fonctions principales" />
-    <option name="LAST_COMMIT_MESSAGE" value="Première version : implémentation des fonctions principales" />
+    <MESSAGE value="Deuxième version : Ajout des fonctionalités d'indication si l'utilisateur à gagné ou perdu + Choix de relancer une partie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deuxième version : Ajout des fonctionalités d'indication si l'utilisateur à gagné ou perdu + Choix de relancer une partie" />
   </component>
 </project>
